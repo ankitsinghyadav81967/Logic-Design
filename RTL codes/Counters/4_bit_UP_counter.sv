@@ -1,5 +1,5 @@
 `default_nettype none
-module 4_bit_UP_counter      (
+module Four_bit_UP_counter     (
                            input logic clk,
                            input logic rst,
                            output logic [3:0] out  
