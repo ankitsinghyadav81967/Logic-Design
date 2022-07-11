@@ -1,9 +1,9 @@
 `default_nettype none
-module Four_bit_UP_counter     (
-                           input logic clk,
-                           input logic rst,
-                           output logic [3:0] out  
-                       );
+module Four_bit_UP_counter(
+                                  input logic clk,
+                                  input logic rst,
+                                  output logic [3:0] out  
+                          );
 
 logic [3:0] out_int ;                        
 
