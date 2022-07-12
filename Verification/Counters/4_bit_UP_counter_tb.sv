@@ -32,6 +32,8 @@ initial
      // $dumpvars(0,Four_bit_UP_counter_tb);
      // More documentation is available at : http://www.referencedesigner.com/tutorials/verilog/verilog_62.php
    
+     // $dumpfile("test.vcd");
+     // $dumpvars(0,Four_bit_UP_counter_tb);
      rst = 1'b0; #5;
      rst = 1'b1; #30;
      rst = 1'b0; #50;
