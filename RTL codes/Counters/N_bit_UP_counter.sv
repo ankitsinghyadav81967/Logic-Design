@@ -1,4 +1,3 @@
-// Code your design here
 `timescale 1ns/1ps
 `default_nettype none
 module N_bit_UP_counter  # (parameter MOD_VALUE = 3)    (                                           // this param is provided in design/TB for programmability
