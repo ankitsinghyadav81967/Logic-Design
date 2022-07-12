@@ -1,3 +1,4 @@
+`timescale 1ns/1ps                // to ensure tight compatibility between TB and design timescales
 `default_nettype none
 module Four_bit_UP_counter(
                                   input logic clk,
