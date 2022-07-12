@@ -29,7 +29,7 @@ initial
      // The $dumpvars is used to specify which variables are to be dumped ( in the file mentioned by $dumpfile). 
      // We basically can specify which modules , and which variables in modules will be dumped. The simplest way to use this is to set the level to 0 
      // and module name as the top module ( typically the top testbench module) as in the below line :
-     // $dumpvars(0,Four_bit_UP_counter_tb);
+   // $dumpvars(0,Four_bit_DOWN_counter_tb);
      // More documentation is available at : http://www.referencedesigner.com/tutorials/verilog/verilog_62.php
    
      rst = 1'b0; #5;
