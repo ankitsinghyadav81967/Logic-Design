@@ -1,4 +1,6 @@
-module counter_nbit_up_down #(parameter WIDTH = 3)(
+// include the defines.svh file during compilation to switch between the kind of counter to select
+
+module counter_nbit_up_down #(parameter WIDTH = 3)				   (
   											input logic clock, 
   											input logic resetn,
   											output logic [WIDTH-1:0] Q 
