@@ -6,7 +6,7 @@ module Four_bit_UP_counter(
                                   output logic [3:0] out  
                           );                    
 
-  always_ff @ (posedge clk or negedge rst) begin  // few compilers like Icarus don't understand always_ff statement, so use always in such cases
+  always_ff @ (posedge clk or negedge rst) begin  // compilers without SV support don't understand always_ff statement, so use always in such cases
       if (~rst)   
          out <= 'b0;
       else begin
