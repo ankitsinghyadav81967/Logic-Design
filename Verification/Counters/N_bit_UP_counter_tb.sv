@@ -1,5 +1,3 @@
-// Code your testbench here
-// or browse Examples
 `timescale 1ns/1ps
 module N_bit_DOWN_counter_tb #(parameter LENGTH = 3)();
 
