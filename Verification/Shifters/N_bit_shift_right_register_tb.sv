@@ -9,7 +9,7 @@ module shift_right_register_test#(parameter MSB = 4)();
     							                  .d(d_t),
     							                  .en(en),
   	  						                  .out(out)
-  							           ) ;
+  							  ) ;
   		
   always #20 clk = ~clk;
 
