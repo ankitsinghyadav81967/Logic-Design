@@ -15,7 +15,8 @@ always @ (posedge clk or posedge rst) begin
               if (~en)
         	            out <= out;
               else
-                      out <= {d,out[MSB-1:1]};
+		      // for left shifting : out <= {out[MSB-2:0],d}
+		      out <= {d,out[MSB-1:1]};
     end
 end
   
