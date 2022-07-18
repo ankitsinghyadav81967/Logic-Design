@@ -28,7 +28,7 @@ module shift_register_bidir_using_defines_test #(parameter MSB = 4) ();
                    $dumpfile("test.vcd");
      			   $dumpvars(0,shift_register_bidir_using_defines_test);
      			   {rst,en,d_t} = 3'b101; #100;
-     		         {rst,en,d_t} = 3'b010; #100;
+     		           {rst,en,d_t} = 3'b010; #100;
       			   {rst,en,d_t} = 3'b011; #100;
      			   {rst,en,d_t} = 3'b111; #100;
      			   {rst,en,d_t} = 3'b000; #100;
