@@ -5,7 +5,7 @@ module shift_right_register #(parameter MSB = 4)
   								input logic rst,
   								input logic d,
   								input logic en,
-                  output logic [MSB-1:0] out
+                  						output logic [MSB-1:0] out
 					  		);	
   
 always @ (posedge clk or posedge rst) begin
