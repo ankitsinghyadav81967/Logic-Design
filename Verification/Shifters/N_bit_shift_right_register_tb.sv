@@ -4,7 +4,7 @@ module shift_right_register_test#(parameter MSB = 4)();
   logic [MSB-1:0] out;
 
   shift_right_register dut (
-   								                 .clk(clk),
+   								               .clk(clk),
     							                  .rst(rst),
     							                  .d(d_t),
     							                  .en(en),
