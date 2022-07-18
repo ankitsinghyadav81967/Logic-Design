@@ -2,6 +2,8 @@
 // Using a particular define, the shifter can work only as a right or left shifter or even bypass it altogether. A better approach would be to build a feature where the
 // direction of the register too can be controlled. That way, the same register can be used in any of the three modes.
 
+// Control the define using a separate defines.svh file
+
 `timescale 1ns/1ps
 module shift_register_bidir_using_defines #(parameter MSB = 4)
   							(
