@@ -17,6 +17,7 @@ module pulse_gen_test ();
   initial begin  
     rstn = 1'b0; #20;
     rstn = 1'b1; #13;
+    /* Randomizing the input sig to have any value between 0 and 1 */
     repeat (20) begin
                 sig = $urandom_range(0,1);
                 #20; 
