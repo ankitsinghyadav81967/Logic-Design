@@ -1,7 +1,6 @@
 `timescale 1ns/1ps
 module pulse_gen_test ();
-  logic rstn,clk,pulse_sig;
-  bit sig;  
+  logic rstn,clk,sig,pulse_sig;
   pulse_gen dut (
                   .*
                 );
