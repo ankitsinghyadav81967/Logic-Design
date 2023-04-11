@@ -17,9 +17,9 @@ module pulse_gen_test ();
   initial begin  
     rstn = 1'b0; #20;
     rstn = 1'b1; #13;
-    /* Randomizing the input sig to have any value between 0 and 1 */
+    /* Randomizing the input sig to have any value between 1 and 0 */
     repeat (20) begin
-                sig = $urandom_range(0,1);
+      sig = $urandom_range(1,0);
                 #20; 
                 $display("Time = \t\tRstn = %0b\t\tSig = %0d",  $time, rstn, sig);  
                 
