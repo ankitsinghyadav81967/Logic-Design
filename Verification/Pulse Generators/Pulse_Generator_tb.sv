@@ -2,7 +2,9 @@
 module pulse_gen_test ();
   logic rstn,clk,pulse_sig;
   bit sig;  
-  pulse_gen dut (.*);
+  pulse_gen dut (
+                  .*
+                );
   initial begin
     clk = 1'b0;
     sig = 1'b0;
