@@ -12,4 +12,5 @@ Both the above folders have uniform structure. System verilog has been used in a
 
 OPENS :
 
-13th April 2023 - Solve the DCD issue and introduce bypass feature in Parametric Clock Divider. Also, explore how the param can be converted to an interface input (to support dynamic divide by value change without design resynth
+13th April 2023 - Solve the DCD issue and introduce bypass feature in Parametric Clock Divider. Also, explore how the param can be converted 
+                  to an interface input (to support dynamic divide by value change without design resynth).
